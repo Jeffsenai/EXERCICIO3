@@ -16,7 +16,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E6E6E6;
     color: #000;
 }
 
@@ -76,18 +75,20 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    background-color: white;
 }
 
 .produto {
-    background-color: #fff;
+    margin: 15px;
     border: 1px solid #ccc;
     padding: 30px;
-    width: 300px;
+    width: 400px;
 }
 
+
 .produto img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 400px;
 }
 
 .produto h3 {
@@ -133,7 +134,7 @@ h2 {
 }
 
 footer {
-    background-color: #fff;
+    background-color: black;
     padding: 50px 0;
 }
 
@@ -145,7 +146,7 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 100px;
+    max-width: 250px;
 }
 
 .footer-info {
@@ -161,14 +162,68 @@ footer {
 .footer-section h2 {
     font-family: "FONTE HQ";
     font-size: 20px;
+    color: white;
 }
 
 .footer-section p {
     font-size: 14px;
-    color: #000;
+    color: white;
 }
 
 span {
     color: black;
-    font-size: 14px;
+    font-size: 17px;
+}
+
+.quadrinhos {
+    background-color: white;
+}
+
+.marvel {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.dc {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.produtoHA {
+    margin: 15px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 400px;
+}
+
+
+.produtoHA img {
+    width: 350px;
+    height: 400px;
+}
+
+.produtoHA h3 {
+    margin: 20px 0;
+    color: #EABC31;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produtoHA button {
+    background-color: #EABC31;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "FONTE HQ";
+    font-size: 15px;
+    color: white;
+}
+
+.produtoHA button:hover {
+    background-color: #000;
+    color: #fff;
 }
