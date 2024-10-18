@@ -215,3 +215,39 @@ h1 {
     background-color: #e0b030;
 }
 
+footer {
+    background-color: black;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer-logo img {
+    max-width: 250px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footer-section {
+    margin-right: 50px;
+}
+
+.footer-section h2 {
+    font-family: "FONTE HQ";
+    font-size: 20px;
+    color: white;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: white;
+}
