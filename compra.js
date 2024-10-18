@@ -1,8 +1,9 @@
 const coracao = document.getElementById("icone-coracao");
 coracao.addEventListener("click", function () {
-    if (coracao.src.includes("coracao.png")) {
-        coracao.src = "coracaoVermelho.png"; 
+    if (coracao.src.includes("CORACAO/coracao.png")) {
+        coracao.src = "CORACAO/coracaoVermelho.png"; 
     } else {
-        coracao.src = "coracao.png";
+        coracao.src = "CORACAO/coracao.png";
     }
 });
+

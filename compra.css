@@ -5,17 +5,17 @@
 }
 @font-face {
     font-family: "FONTE HQ";
-    src: url('Kavoon-Regular.ttf');
+    src: url('FONTES/Kavoon-Regular.ttf');
 }
 
 @font-face {
     font-family: "FONTE TÍTULO";
-    src: url('Bangers-Regular.ttf');
+    src: url('FONTES/Bangers-Regular.ttf');
 }
 
 @font-face {
     font-family: "FONTE BOTÃO";
-    src: url('Miguel\ De\ Northern.ttf');
+    src: url('FONTES/Miguel\ De\ Northern.ttf');
 }
 
 header {
