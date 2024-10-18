@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="compra.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="Logo/Logo.png" alt="Logo da Loja de Quadrinhos" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="marvel.html">Marvel</a></li>
+                    <li><a href="dc.html">DC Comics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="produto-imagem">
+            <img src="DC/imagensDC/dc1.jpg" alt="Gwen Aranha - Edição 1 Gwenom">
+        </div>
+
+        
+        <div class="produto-detalhes">
+            <h1>Batman - A Corte das Corujas</h1>
+
+            <div class="promocao">
+                <span class="selo">10% OFF</span>
+                <span class="rotulo-promocao">Promoção</span>
+            </div>
+
+            
+            <div class="preco">
+                <span class="preco-original">R$49,90</span>
+                <span class="preco-desconto">R$20,99</span>
+                <span class="preco-parcela">1x de R$20,99 sem juros</span>
+            </div>
+
+
+            
+            <div class="quantidade-carrinho">
+                <input type="number" value="1" min="1" class="quantidade">
+                <button class="adicionar-carrinho">ADICIONAR</button>
+                <div class="favorito">
+                    <img id="icone-coracao" src="coracao.png" alt="Coração">
+                </div>
+            </div>
+
+
+            <div class="frete">
+                <span>Calcule o frete:</span>
+                <input type="text" id="cep" placeholder="Apenas números" maxlength="8">
+                <button id="calcular">Calcular</button>
+            </div>
+            
+
+
+            
+    <script src="compra.js"></script>
+
+    
+    
+</body>
+</html>

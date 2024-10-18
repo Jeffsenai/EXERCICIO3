@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "FONTE HQ";
+    src: url('Kavoon-Regular.ttf');
+}
+
+@font-face {
+    font-family: "FONTE TÍTULO";
+    src: url('Bangers-Regular.ttf');
+}
+
+@font-face {
+    font-family: "FONTE BOTÃO";
+    src: url('Miguel\ De\ Northern.ttf');
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 300px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "FONTE HQ";
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.produto-imagem img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.preco {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.preco-original {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 18px;
+}
+
+.preco-desconto {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.preco-parcela {
+    font-size: 14px;
+    color: #555;
+}
+
+.promocao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.promocao .selo {
+    background-color: #d21f26;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.promocao .rotulo-promocao {
+    color: #d21f26;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quantidade-carrinho {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.quantidade {
+    width: 60px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.adicionar-carrinho {
+    background-color: #f0c040;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family:"FONTE BOTÃO";
+    
+}
+
+.adicionar-carrinho:hover {
+    background-color: #e0b030;
+}
+
+.favorito {
+    margin-bottom: 20px;
+}
+
+.favorito img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.favorito img:hover {
+    transform: scale(1.1);
+}
+
+.frete {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.frete span {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.frete input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.frete button {
+    background-color: #f0c040;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family:"FONTE BOTÃO";
+    font-size: 20px;
+}
+
+.frete button:hover {
+    background-color: #e0b030;
+}
+
